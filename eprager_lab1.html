@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sales Tax Calculator</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>  
+    <header>
+        <h3>ITMD-4/565 Lab 1 - Emma Prager - eprager@hawk.iit.edu</h3>
+        <h1>Sales Tax Calculator</h1>
+    </header>
+    <div id="form">
+        <p id="instr">Enter Subtotal and Tax Rate and click the Calculate button to show the sales tax amount and the total. Click the clear button to clear out all form fields. Tax rate should be a percentage but do not enter a % sign in the tax rate box.</p>
+        <form action="" method="POST">
+            <label>Subtotal: <input type="number" name="subtotal"></label><br>  <p></p>
+            <label>Tax Rate: <input type="number" name="tax-rate"></label><br>  <p></p>
+            <label>Sales Tax: <input type="number" name="tax-rate" disabled></label><br>    <p></p>
+            <label>Total: <input type="number" name="tax-rate" disabled></label><br>    <p></p>
+            <input type="submit" value="Calculate Tax and Total">
+            <input type="reset" value="Clear">
+        </form>
+    </div>
+
+    <img src="https://www.kitteryme.gov/sites/kitteryme/files/resize/imce/tax_image-800x400.jpg" alt="tax">
+
+    <footer>&copy; 2020 Emma Prager | eprager@hawk.iit.edu</footer>
+</body>
+</html>
